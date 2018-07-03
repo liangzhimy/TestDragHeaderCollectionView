@@ -15,6 +15,9 @@
 		50D881D820EA30AA0050DD42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D881D720EA30AA0050DD42 /* main.m */; };
 		50D881E220EA30AA0050DD42 /* TestDragHeaderCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D881E120EA30AA0050DD42 /* TestDragHeaderCollectionViewTests.m */; };
 		50D881ED20EA30AA0050DD42 /* TestDragHeaderCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D881EC20EA30AA0050DD42 /* TestDragHeaderCollectionViewUITests.m */; };
+		50D881FC20EA30EF0050DD42 /* ZLCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D881FB20EA30EF0050DD42 /* ZLCollectionFlowLayout.m */; };
+		50D881FF20EA33B40050DD42 /* ZLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D881FE20EA33B40050DD42 /* ZLCollectionViewCell.m */; };
+		50D8820220EA34ED0050DD42 /* ZLCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D8820120EA34ED0050DD42 /* ZLCollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		50D881E820EA30AA0050DD42 /* TestDragHeaderCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDragHeaderCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D881EC20EA30AA0050DD42 /* TestDragHeaderCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDragHeaderCollectionViewUITests.m; sourceTree = "<group>"; };
 		50D881EE20EA30AA0050DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D881FA20EA30EF0050DD42 /* ZLCollectionFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollectionFlowLayout.h; sourceTree = "<group>"; };
+		50D881FB20EA30EF0050DD42 /* ZLCollectionFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionFlowLayout.m; sourceTree = "<group>"; };
+		50D881FD20EA33B40050DD42 /* ZLCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollectionViewCell.h; sourceTree = "<group>"; };
+		50D881FE20EA33B40050DD42 /* ZLCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionViewCell.m; sourceTree = "<group>"; };
+		50D8820020EA34ED0050DD42 /* ZLCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollectionReusableView.h; sourceTree = "<group>"; };
+		50D8820120EA34ED0050DD42 /* ZLCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionReusableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				50D881D320EA30AA0050DD42 /* LaunchScreen.storyboard */,
 				50D881D620EA30AA0050DD42 /* Info.plist */,
 				50D881D720EA30AA0050DD42 /* main.m */,
+				50D881FA20EA30EF0050DD42 /* ZLCollectionFlowLayout.h */,
+				50D881FB20EA30EF0050DD42 /* ZLCollectionFlowLayout.m */,
+				50D881FD20EA33B40050DD42 /* ZLCollectionViewCell.h */,
+				50D881FE20EA33B40050DD42 /* ZLCollectionViewCell.m */,
+				50D8820020EA34ED0050DD42 /* ZLCollectionReusableView.h */,
+				50D8820120EA34ED0050DD42 /* ZLCollectionReusableView.m */,
 			);
 			path = TestDragHeaderCollectionView;
 			sourceTree = "<group>";
@@ -265,6 +280,9 @@
 				50D881CD20EA30A90050DD42 /* ViewController.m in Sources */,
 				50D881D820EA30AA0050DD42 /* main.m in Sources */,
 				50D881CA20EA30A90050DD42 /* AppDelegate.m in Sources */,
+				50D8820220EA34ED0050DD42 /* ZLCollectionReusableView.m in Sources */,
+				50D881FC20EA30EF0050DD42 /* ZLCollectionFlowLayout.m in Sources */,
+				50D881FF20EA33B40050DD42 /* ZLCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
