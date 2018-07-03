@@ -1,0 +1,6 @@
+Like large title navigationbar
+  
+- fix header
+- large title
+
+![image](https://github.com/liangzhimy/TestDragHeaderCollectionView/blob/master/Demo.gif)
